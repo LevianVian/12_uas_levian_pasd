@@ -1,6 +1,6 @@
 package models;
 
-public class transaction {
+public class Transaction{
     public static int sequenceCode = 1;
     public int tcCode;
     public int quantity;
@@ -25,7 +25,7 @@ public class transaction {
         return finalPrice;
     }
 
-    public transaction(item item, int quantity, boolean isMember){
+    public Transaction(item item, int quantity, boolean isMember){
         this.tcCode = sequenceCode++;
         this.item = item;
         this.quantity = quantity;

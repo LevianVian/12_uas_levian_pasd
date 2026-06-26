@@ -1,12 +1,12 @@
 package structures;
-import models.item;
+import models.Transaction;
 
 public class nodes {
-    public item data;
+    public Transaction data;
     public nodes prev;
     public nodes next;
 
-    public nodes(item data){
+    public nodes(Transaction data){
         this.data = data;
         this.prev = null;
         this.next = null;
